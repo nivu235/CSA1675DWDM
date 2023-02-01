@@ -1,0 +1,3 @@
+input<-mtcars[c('wt','mpg')]
+View(mtcars)
+plot(x=input$mpg,y=input$mpg,ylab="miles per gallon",xlab="weight ")
