@@ -1,0 +1,7 @@
+data1 <- read.csv("diabetes.csv")
+A <- c(data1$Age)
+Mean <- mean(A)
+Min <- min(A)
+Max <- max(A)
+Minmax <- (A- Min)/(Max-Min)
+View(Minmax)
