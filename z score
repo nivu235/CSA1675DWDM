@@ -1,0 +1,6 @@
+data<-read.csv("diabetes.csv")
+A<-c(data$SkinThickness)
+Mean<-mean(A)
+std<-sd(a)
+zer=a-mean/sd
+zer
