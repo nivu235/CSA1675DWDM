@@ -1,0 +1,4 @@
+a<-c("delhi","bangalore","chennai","mumbai")
+b<-c(123456,789654,698748,456986)
+data_1<-data.frame(a,b)
+data_1
